@@ -34,8 +34,8 @@ int main(void){
         else l_list.push_back(number);
     }
 
-    width = biggest(w_list, w_paper);
-    length = biggest(l_list, l_paper);
+    if(w_list.size()) width = biggest(w_list, w_paper);
+    if(l_list.size()) length = biggest(l_list, l_paper);
 
     cout << width * length << endl;
 
