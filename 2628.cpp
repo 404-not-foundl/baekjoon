@@ -28,6 +28,9 @@ int main(void){
 
     cin >> w_paper >> l_paper >> count;
 
+    width = w_paper;
+    length = l_paper;
+
     for(int i = 0; i < count; i++){
         cin >> is_width >> number;
         if(is_width) w_list.push_back(number);
